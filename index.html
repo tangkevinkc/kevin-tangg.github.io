@@ -1,0 +1,1207 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Kevin Tang | Embedded Systems Engineer</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kevin Tang | Embedded Systems Engineer" />
+  <meta property="og:description" content="Embedded Systems Engineer" />
+  <meta property="og:url" content="https://kevin-tangg.github.io/" />
+  <meta property="og:site_name" content="Kevin Tang | Embedded Systems Engineer" />
+  <meta property="article:publisher" content="https://kevin-tangg.github.io/" />
+  <meta property="og:image" content="https://kevin-tangg.github.io/examples/preview.JPG" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_officialchi" />
+  <meta name="twitter:title" content="Programmer | Builder | Explorer | Creator | Minimalist" />
+  <meta name="twitter:description" content="Embedded Systems Engineer" />
+  <meta name="twitter:url" content="https://twitter.com/_officialchi" />
+  <meta name="author" content="Kevin Tang" />
+  <meta name="description" content="Embedded Systems with a passion for Automotive, Aerospace, Energy, and Medical" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/my-passport-photo-square.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Involvement section" href="#involvement" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-poll small"></i><span>Involvement</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Kevin's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Kevin's resume in a new tab" href="https://drive.google.com/file/d/1_MXjCPudzo_zELOQrguyY53Gut9NUF5U/view?usp=sharing" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Kevin
+        Tang</a><span class="black-text">Embedded Systems Engineer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Involvment section" href="#involvement" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Involvement</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Kevin Tang's Resume in a new tab"
+          href="https://drive.google.com/file/d/1_MXjCPudzo_zELOQrguyY53Gut9NUF5U/view?usp=sharing" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Kevin Tang.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Always striving to push the boundaries of technology around us to benefit the communities we live in.</h5>
+            </div>
+            <div class="social">
+              <a href="http://linkedin.com/in/kevin-tangg" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/kevin-tangg/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+              <!-- <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
+                  </span>
+              </a> -->
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            A Software Developer with a passion for Backend Development and Artificial Intelligence.
+
+          </h2>
+        </blockquote> -->
+        <p>
+
+          As an undergraduate Electrical Engineering student, I always try to push my limits. Ever since I was a kid, I would always try to seek out new activities and challenges to build and grow myself as a person. Through my experiences, I always seek to network with everyone along my journey, trying to understand the community around me and always offering help to those in need.
+          <!-- Detail-oriented Software Engineer with a get-it-done, on-time, and high-quality product spirit and a keen interest in Software Development and Artificial Intelligence. -->
+        </p>
+        <p>
+          Looking for an opportunity to work in a full-time/internship position to challenge my skills and experience in Embedded Systems and also grow myself as a valuable asset.
+        </p>
+        <!-- <p>
+          Another Paragraph
+        </p>  -->
+        <!-- <p>
+        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
+          aria-label='Navigate to the article "Scalable CSS"'
+          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
+        </p> -->
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.engr.ucr.edu/" target="_blank"><img alt="UCR logo"
+                    src="/assets/img/UCR_Color.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.engr.ucr.edu/" target="_blank"
+                      class="teal-text hoverline">University of California, Riverside</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Undergraduate Research Assistant</div>
+            <ul>
+              <li>
+                Developed a custom Microfluidic device on an ATmega328P to stimulate PCR reaction at a lower cost and more efficient matter
+              </li>
+              <li>
+                Implemented a temperature feedback loop so we could maintain a constant temperature on both hot and cold sides of the chip
+              </li>
+              <li>
+                Temperature was kept within a +/-2 degree Celsius range
+              </li>
+              <li>
+                Started designing a custom PCB to be used inside instead of an Arduino for a smaller and cheaper product
+              </li>
+              <li>
+                Designed and fabricated acrylic chips for PCR reaction
+              </li>
+              <li>
+                Dry and wet testing to verify correct heat transfer and fluid speed within the acrylic chip
+              </li>
+              <li>
+                <b>Tools:</b> ATmega328P, C++, C, Debugging, PCB Design, Feedback Loops, Fabrication
+              </li>
+            </ul>
+            <div class="card-action">
+              <a aria-label="Visit Report website" href="https://docs.google.com/document/d/1sm5b1ExjbN4RVA4ml9GjgpM_G4EM93-R7pSvf5XUkao/edit" target="_blank" data-position="top"
+                data-tooltip="View Online"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                  class="fa fa-external-link"></i></a>
+              <!--a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
+                target="_blank" data-position="top" data-tooltip="View Source"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                  class="fa fa-github"></i></a-->
+            </div>
+          </div>
+          <div class="card-action">
+            <span>Oct 2018 - May 2019 | Riverside, CA</span>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="" target="_blank"><img alt=""
+                    src="" class="responsive-img center-block" /></a>
+
+              </div>
+
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="" target="_blank"
+                      class="teal-text hoverline">Gammatech Computer Cooperation</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Web Developer Intern</div>
+            <ul>
+              <li>
+                JavaScript and HTML used in most of the client’s websites
+              </li>
+              <li>
+                Debug any problems on client’s websites and also increase their security systems if needed to beworked on
+              </li>
+                Increase server stability with client’s website and company’s server by 10%
+              <li>
+              </li>
+              <li>
+                Research previous solutions to apply the knowledge to future problems
+              </li>
+              <li>
+                <b>Tools:</b> JavaScript, Java, SQL
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Jun 2015 - Aug 2015 | North Point, Hong Kong</span>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.cignex.com" target="_blank"><img alt="Cignex logo"
+                    src="/assets/img/exp-cignex-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.cignex.com" target="_blank"
+                      class="teal-text hoverline">CIGNEX
+                      Datamatics </a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Project Trainee</div>
+            <ul>
+              <li>
+                Designed a library management system for a local library, where we undertook activities like requirement
+                elicitation, preparing Data Flow
+                and Entity-Relationship diagrams.
+              </li>
+              <li>
+                Delivered a solution for a POC involving Automatic Financial Document Classifier using Natural Language
+                Processing and Support Vector
+                Machines with 96% accuracy on the company’s data.
+              </li>
+              <li>
+                <b>Tools:</b> Python, Scikit-learn, NLTK
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>June 2017 - July 2017 | Ahmedabad, India</span>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+          <!-- 16-bit RISC Proc -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Simulated Processor" src="/assets/img/xilinxlogo.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">16-bit RISC-V Processor<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Simulated RISC-V Processor on Xilinx
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Utilizing Verilog to build and test/verify the simulated 16-bit RISC Processor in Xilinx</li>
+                  <li>Implementing Data paths for Data processing and Memory management controls with 16-bit instruction set</li>
+                  <li>Instruction format was based off 4-bit Opcodes, 3-bit Registers, and 6/12-bit Offsets</li>
+                  <li>Tested with Xilinx Testbench and digital waveform to insure correct inputs and outputs of the system</li>
+                  <li><b>Tools:</b> Verilog, Xilinx Vivado Studio</li>
+
+                <!-- /ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div-->
+              </div>
+            </div>
+          </div>
+          <!-- Rasp Pi NAS -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Raspberry Pi NAS" src="/assets/img/rasppinas.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Raspberry Pi NAS<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A local NAS controlled by a Raspberry Pi
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+
+                  <li> Linux based Network-Attached Storage (NAS) on Raspberry Pi 4 running on an ARM Cortex-A72 for backup of work and media files</li>
+                  <li>Samba networking file system for seamless file sharing between Windows, macOS, and Linux systems within the network</li>
+                  <li>SSH security protocol for data transfers between two computers over the network</li>
+                  <li>RAID 5 configuration for data redundancy within NAS to account for drive failure</li>
+                  <li><b>Tools:</b> Raspberry Pi 4, Raspberrian, Linux, SSH, RAID, Samba</li>
+
+                <!--/ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/QuizUp"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div-->
+              </div>
+            </div>
+          </div>
+
+          <!-- 1. Django Project -->
+          <!-- <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
+                  <li>Users can view list and detail information for books and authors.</li>
+                  <li>Admin users can create and manage models.</li>
+                  <li>Librarians can renew reserved books.</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/django-local-library"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Wireless PID Project -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Wireless PID Controller" src="/assets/img/wirelesspid.JPG"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Wireless PID Controller<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A RF-based wireless PID controller.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+
+                  <li>Programmed and implemented onto an ATmega328P</li>
+                  <li>Developed a RF-based Controller used to operate and read data from the PID Controller</li>
+                  <li>Designed to read a temperature sensor from the PID with +/- 0.01 Celsius accuracy</li>
+                  <li>RF was tuned to 2.508Ghz at 250KBPS for maximum range/connection strength based on the module we used</li>
+                  <li>Utilized SPI Serial communication for the LCD Monitor and RF communication between the PID and Controller</li>
+                  <li>Tested temperature readings with a cold plate and our heating element within the PID</li>
+                  <li><b>Tools:</b> ATmega328P, C, C++, SPI, RF, LCD monitor, PID</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Report website" href="https://drive.google.com/file/d/1Z4SKSDoTBqsojtuSftZX5P-SoXAPkGpk/view?usp=sharing" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <!--a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bluetooth light door lock -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/bluetooth.JPG" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Bluetooth and Light Sensor Door Lock<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A 3-finite-state machine with Bluetooth and Light sensor
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Utilized an ATmega1284 with an AVR Programmer to program and implement code onto microcontroller</li>
+                  <li>Bluetooth proximity and Light sensitivity based door lock, which would detect user’s phone distance to device and current room lighting to determine if device is unlocked/locked</li>
+                  <li> Locking mechanism will engage when Bluetooth connection was -50dBm or less and had more than 500 lumens of light</li>
+                  <li>Used I2C and SPI communications and PWM controls in Atmel Studio 7 to read the sensors and also control the servo motor of the lock</li>
+                  <li>Testing was mainly done in a room, so I would be able to control the light of the environment</li>
+                  <li><b>Tools:</b> ATmega1284, C++, C, I2C, SPI, PWM, Bluetooth, Atmel Studio, AVR Programmer</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the Report for project"
+                    href="https://drive.google.com/file/d/1BEya3MYaigaP9VvvvWqbMKnKvZnf-K44/view?usp=sharing" target="_blank" data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Smart Mirror-->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/smartmirror.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Smart Mirror<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A smart mirror to dispaly weather, date, time, and current news
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this  only close button-->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>-->
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Mirror that displays date, time, weather, and current news with an API running through the Raspberry Pi</li>
+                  <li>Utilized one-way acrylic to create mirror reflection and also allow the computer monitor to display information behind it</li>
+                  <li>Attached LED strips behind the mirror to light up a certain color based off the time of the day</li>
+                  <li><b>Tools:</b> Raspberry Pi, Raspberrian, Linux, API, Fabrication</li>
+                </ul>
+                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div-->
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Image Generator
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Image Generator<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  An image generator based on the concept of adversarial networks (GANs)
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
+                    of generated and original image.</li>
+                  <li>Calculated difference in PCA was less than 10%, depicting the successful generation of an image by
+                    the generator.</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+          <!-- Head Counting System
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Head Counting System<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A system that calculates the attendance of the class from a panoramic image of a live classroom.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Used Singular Value Decomposition for image compression; applied various image processing
+                    techniques and morphological operations to
+                    detect the number of heads.</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/varadbhogayata/visual-question-answering" target="_blank"
+                    data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/c++logo.png" class="responsive-img" />C/C++
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/veriloglogo.jpg" class="responsive-img" />Verilog
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matlablogo.png" class="responsive-img" />MATLAB
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/jslogo.png" class="responsive-img" />JavaScript
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/javalogo.png" class="responsive-img" />Java
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Microcontrollers</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/1284.png" class="responsive-img" />ATmega1284
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/328p.png" class="responsive-img" />ATmega328P
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/armm4.png" class="responsive-img" />ARM Cortex M-4
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/arma72.jpg" class="responsive-img" />ARM Cortex A-72
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Technologies</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/i2c.png" class="responsive-img" />I2C
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/spi.png" class="responsive-img" />SPI
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pwm.png" class="responsive-img" />PWM
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/bluetoothlogo.png" class="responsive-img" />Bluetooth
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/rf.png" class="responsive-img" />RF
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/ssh.png" class="responsive-img" />SSH
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/raid.webp" class="responsive-img" />RAID
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Programs</h4>
+            <div class="row text-center">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/altium.png" class="responsive-img" />Altium
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/orcad.png" class="responsive-img" />Capture CIS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/atmel.png" class="responsive-img" />Atmel Studio
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/ltspice.jpg" class="responsive-img" />LTSpice
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/ccs.png" class="responsive-img" />Code Compiler Studio
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.engr.ucr.edu/" class="teal-text hoverline">University of California, Riverside</a></span>
+                </p>
+                <p class="brown-text">Riverside, CA</p>
+                <p>
+                  <b>Degree: </b>Bachelor of Science in Electrical Engineering focused in Embedded Systems
+                  <br>
+                  <b>CGPA: </b>2.51/4.00
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Design and Architecture of Computer Systems</li>
+                    <li>Computer Vision</li>
+                    <li>Intro to Very Large Scale Integration</li>
+                    <li>Engineering Optimization Techniques</li>
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third Section: Involvement -->
+    <section id="involvement" class="section scrollspy">
+      <h3 class="page-title white-text teal">Involvement</h3>
+      <div class="container">
+
+        <!-- Latest Involvement -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+
+              <div class="col s12 m2">
+                <a href="https://www.highlanderracing.org/" target="_blank"><img alt="HR logo"
+                    src="/assets/img/hr.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.highlanderracing.org/" target="_blank"
+                      class="teal-text hoverline">Highlander Racing</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">EE and CS Team</div>
+            <ul>
+              <li>
+                Construct and race an electric car against other schools around the United States (UCR Formula SAE Team)
+              </li>
+              <li>
+                Create drivers for the Controller Area Network Bus Communication on an ARM Cortex-M4
+              </li>
+              <li>
+                Improved design of Vehicle Safety Module with new Latching Logic for increased safety and sensitivity to voltage readings
+              </li>
+              <li>
+                <b>Tools:</b> ARM, C++, C, Debugging, PCB Design, Latching design
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Sep 2020 - Present | Riverside, CA</span>
+          </div>
+        </div>
+          <!-- Experience 2 -->
+            <div class="col s12 m2">
+              <a href="https://www.highlanderracing.org/" target="_blank"><img alt="HR logo"
+                  src="/assets/img/hr.png" class="responsive-img center-block" /></a>
+            </div>
+            <!-- <div class="col s12 m10"> -->
+            <div class="col s12 m10">
+              <p>
+                <span class="card-title"><a href="https://www.highlanderracing.org/" target="_blank"
+                    class="teal-text hoverline">Highlander Racing</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="role brown-text text-darken-2">EE Team</div>
+          <ul>
+            <li>
+              Construct and race a car against other schools around the United States (UCR Formula SAE Team)
+            </li>
+            <li>
+              Researched on the ESD protection circuits for the boards and connectors
+            </li>
+            <li>
+              Designed and Developed DC/DC Power Filter for the car
+            </li>
+            <li>
+              <b>Tools:</b> PCB Design, Circuits, Power Filter, Altium, ESD
+            </li>
+          </ul>
+        </div>
+        <div class="card-action">
+          <span>Oct 2019 - June 2020 | Riverside, CA</span>
+        </div>
+      </div>
+
+        <!-- Experience 3 -->
+          <div class="col s12 m2">
+            <a href="https://ieee.ee.ucr.edu/" target="_blank"><img alt="IEEE logo"
+                src="/assets/img/ieee.png" class="responsive-img center-block" /></a>
+          </div>
+          <!-- <div class="col s12 m10"> -->
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="https://ieee.ee.ucr.edu/" target="_blank"
+                  class="teal-text hoverline">CitrusHack 2019</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text text-darken-2">Sponsorship Team</div>
+        <ul>
+          <li>
+            Found sponsorship opportunities from companies to fund CitrusHack 2019 for prizes and speakers
+          </li>
+          <li>
+            Reached out to Alumni and Notable figures to speak at CitrusHack
+          </li>
+          <li>
+            Helped and volunteered the day of CitrusHack
+          </li>
+        </ul>
+      </div>
+      <div class="card-action">
+        <span>Oct 2018 - Apr 2019 | Riverside, CA</span>
+      </div>
+    </div>
+        <!-- Experience 4 -->
+          <div class="col s12 m2">
+            <a href="https://ieee.ee.ucr.edu/" target="_blank"><img alt="IEEE logo"
+                src="/assets/img/ieee.png" class="responsive-img center-block" /></a>
+          </div>
+          <!-- <div class="col s12 m10"> -->
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="https://ieee.ee.ucr.edu/" target="_blank"
+                  class="teal-text hoverline">CitrusHack 2018</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text text-darken-2">Operation Team</div>
+        <ul>
+          <li>
+            Found restaurants and beverage brands to cater foods/drinks to the students at the event
+          </li>
+          <li>
+            Created and supervise workshops held during the event
+          </li>
+          <li>
+            Hosted fun/relaxing activities and games for students to enjoy the day of
+          </li>
+          <li>
+            Organized and managed people during the day of
+          </li>
+        </ul>
+      </div>
+      <div class="card-action">
+        <span>Jan 2018 - Apr 2018 | Riverside, CA</span>
+      </div>
+    </div>
+        <!-- Experience 5 -->
+          <div class="col s12 m2">
+            <a href="https://ieee.ee.ucr.edu/" target="_blank"><img alt="IEEE logo"
+                src="/assets/img/ieee.png" class="responsive-img center-block" /></a>
+          </div>
+          <!-- <div class="col s12 m10"> -->
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="https://ieee.ee.ucr.edu/" target="_blank"
+                  class="teal-text hoverline">Bourns Engineering Day</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text text-darken-2">Instructor</div>
+        <ul>
+          <li>
+            Educated children from the age of 5 to 15 about the fundamentals of engineering
+          </li>
+          <li>
+            Lectured children about the basics of electrical engineering
+          </li>
+          <li>
+            Worked on small projects with the students to show how it works in person
+          </li>
+          <li>
+            Communicated with around 50 students throughout the day
+          </li>
+        </ul>
+      </div>
+      <div class="card-action">
+        <span>Apr 2017 | Riverside, CA</span>
+      </div>
+    </div>
+
+        <!-- Experience 3 -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.cignex.com" target="_blank"><img alt="Cignex logo"
+                    src="/assets/img/exp-cignex-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.cignex.com" target="_blank"
+                      class="teal-text hoverline">CIGNEX
+                      Datamatics </a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Project Trainee</div>
+            <ul>
+              <li>
+                Designed a library management system for a local library, where we undertook activities like requirement
+                elicitation, preparing Data Flow
+                and Entity-Relationship diagrams.
+              </li>
+              <li>
+                Delivered a solution for a POC involving Automatic Financial Document Classifier using Natural Language
+                Processing and Support Vector
+                Machines with 96% accuracy on the company’s data.
+              </li>
+              <li>
+                <b>Tools:</b> Python, Scikit-learn, NLTK
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>June 2017 - July 2017 | Ahmedabad, India</span>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <!--p>
+          <a aria-label="Call Kevin" data-position="top" data-tooltip="Call Kevin"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Varad">+562-215-1971</a></a>
+        </p-->
+        <p>
+          <a aria-label="Email Kevin" href="mailto:kvntang8@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Kevin" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Kevin" href="mailto:kvntang8@gmail.com"
+              class="hoverline">kvntang8@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Kevin on GitHub" href="http://github.com/kevin-tangg" target="_blank"
+            data-position="top" data-tooltip="View Kevin on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Kevin on Github" href="http://github.com/kevin-tangg" class="hoverline"
+              target="_blank">github.com/kevin-tangg</a></a>
+        </p>
+        <p>
+          <a aria-label="View Kevin on LinkedIn" href="http://linkedin.com/in/kevin-tangg" target="_blank"
+            data-position="top" data-tooltip="View Kevin on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Kevin on LinkedIn" href="http://linkedin.com/in/kevin-tangg"
+              class="hoverline" target="_blank">linkedin.com/in/kevin-tangg</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Programmer", "Builder", "Creator", "Explorer"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
