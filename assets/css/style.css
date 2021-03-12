@@ -356,7 +356,7 @@ h3 {
 }
 
 .overlay {
-  background-image: url(../../assets/img/background.gif);
+  background-image: url('/assets/img/background.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
