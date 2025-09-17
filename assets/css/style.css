@@ -426,6 +426,15 @@ h3 {
   max-height: 60px;
 }
 
+#education .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
 .card-action span {
   font-size: 85%;
   color: #666;
@@ -487,15 +496,6 @@ a.hoverline:hover {
 }
 
 #skills .col img.responsive-img {
-  margin: 0 auto;
-  max-height: 100px;
-  padding-bottom: 10px;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
-}
-
-#education .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
   padding-bottom: 10px;
