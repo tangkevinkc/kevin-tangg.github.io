@@ -495,6 +495,15 @@ a.hoverline:hover {
   display: table-cell;
 }
 
+#education .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
 .card.large .card-content p {
   color: inherit;
   margin: 0;
